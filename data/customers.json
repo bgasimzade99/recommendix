@@ -1,0 +1,18 @@
+[
+  {"id":"c001","name":"Aysel","country":"UK","tags":["loyal","b2c"]},
+  {"id":"c002","name":"Mehmet","country":"DE","tags":["seasonal"]},
+  {"id":"c003","name":"Ilgar","country":"LV","tags":["wholesale"]},
+  {"id":"c004","name":"Elif","country":"UK"},
+  {"id":"c005","name":"Tomas","country":"LT"},
+  {"id":"c006","name":"Maria","country":"ES","tags":["b2c"]},
+  {"id":"c007","name":"Sophie","country":"FR","tags":["loyal","premium"]},
+  {"id":"c008","name":"James","country":"UK","tags":["seasonal"]},
+  {"id":"c009","name":"Anna","country":"DE","tags":["b2c","gift-buyer"]},
+  {"id":"c010","name":"Carlos","country":"PT","tags":["wholesale"]},
+  {"id":"c011","name":"Emma","country":"FI","tags":["seasonal"]},
+  {"id":"c012","name":"Luca","country":"IT"},
+  {"id":"c013","name":"Helga","country":"AT","tags":["loyal"]},
+  {"id":"c014","name":"Yuki","country":"JP","tags":["premium"]},
+  {"id":"c015","name":"Ahmed","country":"TR","tags":["wholesale"]}
+]
+

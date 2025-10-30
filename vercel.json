@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci --no-audit --no-fund",
+  "functions": {
+    "**/*.func": {
+      "runtime": "nodejs20.x"
+    },
+    "api/**": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "env": {
+    "NODE_OPTIONS": "--max-old-space-size=1536"
+  }
+}
+

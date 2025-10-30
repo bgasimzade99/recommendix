@@ -1,0 +1,19 @@
+[
+  {"customerId":"c001","itemId":"i301","q":0.05},
+  {"customerId":"c001","itemId":"i302","q":0.02},
+  {"customerId":"c002","itemId":"i201","q":0.01},
+  {"customerId":"c003","itemId":"i203","q":0.03},
+  {"customerId":"c004","itemId":"i304","q":0.01},
+  {"customerId":"c005","itemId":"i204","q":0.02},
+  {"customerId":"c006","itemId":"i303","q":0.01},
+  {"customerId":"c007","itemId":"i403","q":0.02},
+  {"customerId":"c008","itemId":"i205","q":0.01},
+  {"customerId":"c009","itemId":"i501","q":0.03},
+  {"customerId":"c010","itemId":"i105","q":0.01},
+  {"customerId":"c011","itemId":"i304","q":0.02},
+  {"customerId":"c012","itemId":"i401","q":0.01},
+  {"customerId":"c013","itemId":"i503","q":0.01},
+  {"customerId":"c014","itemId":"i405","q":0.02},
+  {"customerId":"c015","itemId":"i206","q":0.01}
+]
+

@@ -1,0 +1,23 @@
+[
+  {"id":"t001","customerId":"c001","itemIds":["i101","i202"],"date":"2024-12-10","total":22.8},
+  {"id":"t002","customerId":"c002","itemIds":["i102","i202","i301"],"date":"2025-01-05","total":31.9},
+  {"id":"t003","customerId":"c003","itemIds":["i201","i202"],"date":"2025-02-14","total":7.1},
+  {"id":"t004","customerId":"c001","itemIds":["i101","i301"],"date":"2025-03-03","total":27.4},
+  {"id":"t005","customerId":"c004","itemIds":["i103","i302","i201"],"date":"2024-11-20","total":27.6},
+  {"id":"t006","customerId":"c005","itemIds":["i104","i203"],"date":"2024-12-15","total":25.5},
+  {"id":"t007","customerId":"c006","itemIds":["i105","i202","i301"],"date":"2025-01-10","total":34.6},
+  {"id":"t008","customerId":"c007","itemIds":["i106","i302"],"date":"2025-02-05","total":29.9},
+  {"id":"t009","customerId":"c008","itemIds":["i201","i202","i204"],"date":"2025-01-20","total":9.6},
+  {"id":"t010","customerId":"c009","itemIds":["i107","i305"],"date":"2025-03-01","total":53.0},
+  {"id":"t011","customerId":"c010","itemIds":["i102","i103","i104"],"date":"2024-12-25","total":63.5},
+  {"id":"t012","customerId":"c011","itemIds":["i301","i302","i303"],"date":"2025-02-10","total":28.9},
+  {"id":"t013","customerId":"c012","itemIds":["i402","i403"],"date":"2025-01-15","total":39.0},
+  {"id":"t014","customerId":"c013","itemIds":["i501","i502"],"date":"2024-12-30","total":13.0},
+  {"id":"t015","customerId":"c014","itemIds":["i401","i404"],"date":"2025-02-20","total":28.0},
+  {"id":"t016","customerId":"c001","itemIds":["i101","i202","i302"],"date":"2025-03-15","total":31.8},
+  {"id":"t017","customerId":"c002","itemIds":["i102","i204"],"date":"2025-03-20","total":24.0},
+  {"id":"t018","customerId":"c015","itemIds":["i105","i106","i201"],"date":"2025-01-05","total":47.2},
+  {"id":"t019","customerId":"c006","itemIds":["i303","i304"],"date":"2025-02-28","total":22.0},
+  {"id":"t020","customerId":"c007","itemIds":["i107","i402"],"date":"2025-03-10","total":63.0}
+]
+
