@@ -13,10 +13,10 @@
     </style>
     <script>
       (function () {
-        var isOnGitHubPages = /\.github\.io$/.test(location.hostname);
-        if (isOnGitHubPages) {
-          // Use replace to avoid adding history entries and reduce loop risk
-          window.location.replace('https://www.bgdev.dev/recommendix/');
+        var target = 'https://www.bgdev.dev/recommendix/';
+        var targetHost = 'www.bgdev.dev';
+        if (location.hostname !== targetHost) {
+          window.location.replace(target);
         }
       })();
     </script>
