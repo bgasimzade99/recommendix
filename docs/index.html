@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=https://www.bgdev.dev/recommendix/">
     <link rel="canonical" href="https://www.bgdev.dev/recommendix/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Redirecting…</title>
@@ -12,6 +11,15 @@
       a { color: #60a5fa; text-decoration: none; }
       a:hover { text-decoration: underline; }
     </style>
+    <script>
+      (function () {
+        var isOnGitHubPages = /\.github\.io$/.test(location.hostname);
+        if (isOnGitHubPages) {
+          // Use replace to avoid adding history entries and reduce loop risk
+          window.location.replace('https://www.bgdev.dev/recommendix/');
+        }
+      })();
+    </script>
   </head>
   <body>
     <div class="wrap">
