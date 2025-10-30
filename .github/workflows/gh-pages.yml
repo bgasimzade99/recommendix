@@ -29,11 +29,24 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Disable Next API routes for static export
+        run: |
+          if [ -d "app/api" ]; then
+            mv app/api app/api_disabled
+          fi
+
       - name: Build static site
         env:
           NEXT_TELEMETRY_DISABLED: "1"
           GITHUB_ACTIONS: "true"
         run: npm run build
+
+      - name: Re-enable API folder (not part of artifact)
+        if: always()
+        run: |
+          if [ -d "app/api_disabled" ]; then
+            mv app/api_disabled app/api
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
